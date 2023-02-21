@@ -10,6 +10,9 @@
 \usepackage{hhline}
 \usepackage{tabularx}
 
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest, axis lines=middle}% siehe pgfplots-Anleitung
+
 \usepackage[a4paper,inner=2.5cm,lmargin=2.5cm,outer=2.5cm,
 tmargin=2.5cm,bmargin=2.5cm]{geometry}
 
@@ -58,19 +61,40 @@ tmargin=2.5cm,bmargin=2.5cm]{geometry}
         \\ \hline
         \end{tabularx}
 
-    \subsection*{3. Tabelle mit 2 Spalten}
-     \begin{tabularx}{1\linewidth}{|X|X|}   %<-- hier müssen ggf die Striche weg??
+\subsection*{3. Tabelle mit 2 Spalten}
+     \begin{tabularx}{\linewidth}{|X|X|}
         \hline
-         {
-            Text links Spalte\\\\
-
-         } &
-         {
-            Text rechte Spalte\\\\
-
-         }
+        {
+            Text links
+        }
+        &
+        {
+            Text rechts
+        }
         \\ \hline
-
-        \end{tabularx}
-
+    \end{tabularx}
+\subsection*{4. Bilder}
+    \includegraphics[width = 0.5\textwidth]{cc}
+\subsection*{5. Axis}
+\begin{center}
+            \begin{tikzpicture}
+                \begin{axis}[
+                    %Farbe und Transparenz vom Grid
+                    grid style={grey!5},
+                    xmin=-4,xmax=4,
+                    ymin=-4,ymax=4,
+                    x=1cm,
+                    y=1cm,
+                    minor tick num=2,% zwischen zwei Haupt-Achsmarkierungen jeweils einen Untermarkierungen einfügen
+                    minor tick length=0pt,% Länge der Untermarkierungen auf 0 setzen, sie also unterdrücken
+                    grid={both},% Gitterlinien sowohl durch die Positionen der Haupt- als auch Untermarkierungen
+                    xlabel={x}, %x-achsenbeschriftung (BITTE NICHT DEN MATHEMODUS MISSBRAUCHEN)
+                    ylabel={y}, %y-achsenbeschriftung (BITTE NICHT DEN MATHEMODUS MISSBRAUCHEN)
+                    label style={font=\itshape}% Achsenbeschriftung kursiv
+                    ]
+                    \addplot[domain=-3:3] {x}  node[right,pos=0.1]{$f(x)=x$};% Lineare Funktion
+                    \addplot[domain=-3:3,samples=1000] {0.5*x^2} node[right,pos=0.1]{$f(x)=x^{2}$};% Quadratische Funktion
+                \end{axis}
+                \end{tikzpicture}
+        \end{center}
 \end{document}
