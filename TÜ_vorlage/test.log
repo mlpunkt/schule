@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.20)  22 FEB 2023 09:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.20)  22 FEB 2023 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lk_potenzfunktionen.tex
-(./lk_potenzfunktionen.tex
+**test.tex
+(./test.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -41,12 +41,17 @@ Package: tocbasic 2021/11/13 v3.35 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: babel extension for `toc' omitted
 (tocbasic)             because of missing \bbl@set@language on input line 135.
-Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 224
-2.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 2242.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2021/11/13 v3.35 KOMA-Script font size class option (11pt
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2021/11/13 v3.35 KOMA-Script font size class option (12pt
 )
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
@@ -64,21 +69,21 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@temp=\skip51
 \footheight=\skip52
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
+(typearea)              \textwidth      = 448.13095pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1743.
 )
 \c@part=\count186
@@ -217,8 +222,9 @@ ex)
 (/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Format.optionen.tex)
 
 (/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Aufgaben.optionen.te
-x) (/usr/share/texlive/texmf-dist/tex/latex/schule/schule.typ.kl.optionen.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+x)
+(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Bewertung.optionen.t
+ex) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count281
 \U@D=\dimen141
@@ -3430,29 +3436,7 @@ Package: utfsym 2020/10/22 Use TikZ to support icons from Unicode blocks
    defining Unicode char U+27BE (decimal 10174)
    defining Unicode char U+27BF (decimal 10175)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.typ.kl.pakete.tex
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2021/11/13 v3.35 KOMA-Script package (end user interf
-ace for scrlayer)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
-Package: scrlayer 2021/11/13 v3.35 KOMA-Script package (defining layers and pag
-e styles)
-Package scrlayer Info: Using already defined \footheight
-(scrlayer)             hoping, that this is a length and
-(scrlayer)             not only a macro on input line 136.
-Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 216
-2.
-)
-Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
-(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
-Package scrlayer-scrpage Info: deactivating warning for font element
-(scrlayer-scrpage)             `pagefoot' on input line 1109.
-)
-Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Bewertung.optionen.t
-ex)
+(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Symbole.pakete.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Bewertung.pakete.tex
 (/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Aufgaben.code.tex
 
@@ -3858,21 +3842,28 @@ Package xsim Info: Defining new auxfile list `mcumgebung'. (on line 172)
 Package xsim Info: Declaring new exercise property `mcumgebung'. (on line 172)
 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Bewertung.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.typ.ueb.pakete.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2021/11/13 v3.35 KOMA-Script package (end user interf
+ace for scrlayer)
 
-Package xsim Info: Defining new auxfile list `erwartungen'. (on line 8)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2021/11/13 v3.35 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 136.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 216
+2.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1109.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 
-
-Package xsim Info: Declaring new exercise property `erwartungen'. (on line 8)
-
-\schule_aufgaben_punkte_int=\count389
-\schule_aufgaben_zusatzpunkte_int=\count390
-\schule_aufgaben_punkte_ges_int=\count391
-\schule_aufgaben_zusatzpunkte_ges_int=\count392
-
-Package xsim Info: Declaring relative grade distribution (on line 325)
-
-)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -3888,8 +3879,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen330
-\Hy@linkcounter=\count393
-\Hy@pagecounter=\count394
+\Hy@linkcounter=\count389
+\Hy@pagecounter=\count390
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -3903,7 +3894,7 @@ nguages
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count395
+\Hy@SavedSpaceFactor=\count391
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -3917,7 +3908,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count396
+\c@Hy@tempcnt=\count392
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
@@ -3933,7 +3924,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count397
+\Fld@menulength=\count393
 \Field@Width=\dimen332
 \Fld@charsize=\dimen333
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -3945,17 +3936,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6101.
 Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
-\Hy@abspage=\count398
-\c@Item=\count399
-\c@Hfootnote=\count400
+\Hy@abspage=\count394
+\c@Item=\count395
+\c@Hfootnote=\count396
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
-\HyAnn@Count=\count401
-\Fld@listcount=\count402
-\c@bookmark@seq@number=\count403
+\HyAnn@Count=\count397
+\Fld@listcount=\count398
+\c@bookmark@seq@number=\count399
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -3972,205 +3963,366 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Format.code.tex
    defining Unicode char U+20AC (decimal 8364)
 Package csquotes Info: Redefining alias 'german' -> 'german/guillemets'.
-\c@schule@seitenzahl=\count404
+\c@schule@seitenzahl=\count400
 )
-(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.typ.kl.code.tex
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -7%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -35.38501pt
-(typearea)              \headheight     = 27.2197pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 9.
+(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Symbole.code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.mod.Bewertung.code.tex
+
+Package xsim Info: Defining new auxfile list `erwartungen'. (on line 8)
+
+
+Package xsim Info: Declaring new exercise property `erwartungen'. (on line 8)
+
+\schule_aufgaben_punkte_int=\count401
+\schule_aufgaben_zusatzpunkte_int=\count402
+\schule_aufgaben_punkte_ges_int=\count403
+\schule_aufgaben_zusatzpunkte_ges_int=\count404
+
+Package xsim Info: Declaring relative grade distribution (on line 325)
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/schule/schule.typ.ueb.code.tex
+
+Package scrlayer-scrpage Warning: Command deprecated!
+(scrlayer-scrpage)                Usage of `\setheadtopline', `\setheadsepline'
+,
+(scrlayer-scrpage)                `\setfootsepline', and `\setfootbotline'
+(scrlayer-scrpage)                became deprecated with scrlayer-scrpage.
+(scrlayer-scrpage)                You should use KOMA-Script options
+(scrlayer-scrpage)                `headsepline', `headtopline', `footsepline',
+(scrlayer-scrpage)                or `footbotline' with values
+(scrlayer-scrpage)                `<line thickness>:<line length>' to setup
+(scrlayer-scrpage)                the line length and thickness, and
+(scrlayer-scrpage)                `\setkomafont' or `\addtokomafont' to
+(scrlayer-scrpage)                setup the colour on input line 4.
+
 
 Package xsim Info: Setting parameter `exercise-template' for type `aufgabe' to
-(xsim)             `schule-default'. (on line 13)
+(xsim)             `schule-default'. (on line 8)
 
+)) (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fouriernc.sty
+Package: fouriernc 2005/12/20 1.0 fouriernc package
+
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/fourier.sty
+Package: fourier 2020/03/03 2.2 fourier-GUTenberg package
+Now handling font encoding FML ...
+... no UTF-8 mapping file for font encoding FML
+Now handling font encoding FMS ...
+... no UTF-8 mapping file for font encoding FMS
+Now handling font encoding FMX ...
+... no UTF-8 mapping file for font encoding FMX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
+12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/fourier-orns.sty
+Package: fourier-orns 2020/03/03 2.2 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 72.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 72.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 72.
+\symotherletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 74.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 126.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 126.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+27.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 127
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 127.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 14
+3.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+44.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 164
+.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 168.
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks60
-\t@pgfplots@tokb=\toks61
-\t@pgfplots@tokc=\toks62
-\pgfplots@tmpa=\dimen334
-\c@pgfplots@coordindex=\count405
-\c@pgfplots@scanlineindex=\count406
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 200.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 223.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 228.
+LaTeX Font Info:    Redeclaring math delimiter \lvert on input line 230.
+LaTeX Font Info:    Redeclaring math delimiter \rvert on input line 232.
+LaTeX Font Info:    Redeclaring math delimiter \lVert on input line 234.
+LaTeX Font Info:    Redeclaring math delimiter \rVert on input line 236.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 238.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 240.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 242.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 244.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 246.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 248.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 250.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 252.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 254.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 256.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 261.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 262.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 263.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 264.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 265.
+LaTeX Font Info:    Redeclaring math accent \check on input line 266.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 267.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 268.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
+\symUfutm=\mathgroup7
+)
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 16.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  FML/futmi/m/it --> FML/fncmi/m/it on input line 16.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/b/it --> FML/fncmi/m/it on input line 16.
+LaTeX Font Info:    Redeclaring symbol font `otherletters' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `normal'
+(Font)                  FML/futm/m/it --> FML/fncm/m/it on input line 17.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/b/it --> FML/fncm/m/it on input line 17.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/fncmi/m/it --> FML/fncmi/b/it on input line 18.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/fncm/m/it --> FML/fncm/b/it on input line 19.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/b/n --> T1/fnc/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/fnc/m/n --> T1/fnc/b/n on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
+)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
-.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_loader.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
-tructure.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
-tructureext.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
-.code.tex
-\c@pgfplotsarray@tmp=\count407
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
-x.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
-d.code.tex
-\c@pgfplotstable@counta=\count408
-\t@pgfplotstable@a=\toks63
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
-x
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
-de.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
-fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count409
+Class scrartcl Warning: Usage of package `parskip' together
+(scrartcl)              with a KOMA-Script class is not recommended.
+(scrartcl)              I'd suggest to use option
+(scrartcl)              `parskip' with one of it's several values.
+(scrartcl)              Nevertheless, using requested
+(scrartcl)              package `parskip' on input line 17.
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
-shading.pgfsys-pdftex.def)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
-tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
-ex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
-e.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
-tex)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
-e.tex
-\pgfdecoratedcompleteddistance=\dimen335
-\pgfdecoratedremainingdistance=\dimen336
-\pgfdecoratedinputsegmentcompleteddistance=\dimen337
-\pgfdecoratedinputsegmentremainingdistance=\dimen338
-\pgf@decorate@distancetomove=\dimen339
-\pgf@decorate@repeatstate=\count410
-\pgfdecorationsegmentamplitude=\dimen340
-\pgfdecorationsegmentlength=\dimen341
-)
-\tikz@lib@dec@box=\box141
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathmorphing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathmorphing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarydecorations.pathreplacing.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
-decorations.pathreplacing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
-ntourlua.code.tex)
-\pgfplots@numplots=\count411
-\pgfplots@xmin@reg=\dimen342
-\pgfplots@xmax@reg=\dimen343
-\pgfplots@ymin@reg=\dimen344
-\pgfplots@ymax@reg=\dimen345
-\pgfplots@zmin@reg=\dimen346
-\pgfplots@zmax@reg=\dimen347
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
-de.tex
-File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count412
-\c@Blindtext=\count413
-\c@blind@countparstart=\count414
-\blind@countxx=\count415
-\blindtext@numBlindtext=\count416
-\blind@countyy=\count417
-\c@blindlist=\count418
-\c@blindlistlevel=\count419
-\c@blindlist@level=\count420
-\blind@listitem=\count421
-\c@blind@listcount=\count422
-\c@blind@levelcount=\count423
-\blind@mathformula=\count424
-\blind@Mathformula=\count425
-\c@blind@randomcount=\count426
-\c@blind@randommax=\count427
-\c@blind@pangramcount=\count428
-\c@blind@pangrammax=\count429
+Couldn't patch \@startsection
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
+\Gm@cnth=\count405
+\Gm@cntv=\count406
+\c@Gm@tempcnt=\count407
+\Gm@bindingoffset=\dimen334
+\Gm@wd@mp=\dimen335
+\Gm@odd@mp=\dimen336
+\Gm@even@mp=\dimen337
+\Gm@layoutwidth=\dimen338
+\Gm@layoutheight=\dimen339
+\Gm@layouthoffset=\dimen340
+\Gm@layoutvoffset=\dimen341
+\Gm@dimlist=\toks60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+\pgf@logicalpages=\count408
+\pgf@firstshipout=\count409
+\pgf@lastshipout=\count410
+\pgf@currentshipout=\count411
+\pgf@cpn=\count412
+\pgf@shipoutnextto=\count413
+\pgfphysicalheight=\dimen342
+\pgfphysicalwidth=\dimen343
+\pgfpages@shipoutbox=\box141
+)
+\pgfpages@box@1=\box142
+\pgfpages@box@2=\box143
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 36
+.
 
-(./lk_potenzfunktionen.aux (./lk_potenzfunktionen.xsim)
+(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/t1fnc.fd
+File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
+)
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 36.
+ (./test.aux
+(./test.xsim)
+
+LaTeX Warning: Label `SeitePunkt' multiply defined.
+
 
 LaTeX Warning: Label `LetzteInhaltsseite' multiply defined.
 
 )
-\openout1 = `lk_potenzfunktionen.aux'.
+\openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 36.
+LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
+ 36.
+ (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
+File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
+)
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
+36.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
+File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
+)
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 36.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
+36.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 36.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count430
-\scratchdimen=\dimen348
-\scratchbox=\box142
-\nofMPsegments=\count431
-\nofMParguments=\count432
-\everyMPshowfont=\toks64
-\MPscratchCnt=\count433
-\MPscratchDim=\dimen349
-\MPnumerator=\count434
-\makeMPintoPDFobject=\count435
-\everyMPtoPDFconversion=\toks65
+\scratchcounter=\count414
+\scratchdimen=\dimen344
+\scratchbox=\box144
+\nofMPsegments=\count415
+\nofMParguments=\count416
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count417
+\MPscratchDim=\dimen345
+\MPnumerator=\count418
+\makeMPintoPDFobject=\count419
+\everyMPtoPDFconversion=\toks62
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -4181,309 +4333,611 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \l__xsim_aux_file_iow=\write4
-\openout4 = `lk_potenzfunktionen.xsim'.
+\openout4 = `test.xsim'.
 
 
 Package xsim Info: Setting property `used' of exercise type `aufgabe' id `1'
-(xsim)             to value `true'. (on line 19)
+(xsim)             to value `true'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={true}' to list `used'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={true}' to list `used'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={true}' to list `used'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={true}' to list `used'. (on line 36)
 
 
 Package xsim Info: Setting property `used' of exercise type `aufgabe' id `2'
-(xsim)             to value `true'. (on line 19)
+(xsim)             to value `true'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={true}' to list `used'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={true}' to list `used'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={true}' to list `used'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={true}' to list `used'. (on line 36)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `3'
+(xsim)             to value `true'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={true}' to list `used'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={true}' to list `used'. (on line 36)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `4'
+(xsim)             to value `true'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={true}' to list `used'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={true}' to list `used'. (on line 36)
 
 
 Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
-(xsim)             `1' to value `true'. (on line 19)
+(xsim)             `1' to value `true'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-1=={true}' to list `printed'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
-Package xsim Info: Adding `aufgabe-1=={true}' to list `printed'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={true}' to list `printed'. (on line 36)
 
 
 Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
-(xsim)             `2' to value `true'. (on line 19)
+(xsim)             `2' to value `true'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={true}' to list `printed'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
-Package xsim Info: Adding `aufgabe-2=={true}' to list `printed'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={true}' to list `printed'. (on line 36)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `3' to value `true'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={true}' to list `printed'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-3=={true}' to list `printed'. (on line 36)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `4' to value `true'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={true}' to list `printed'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-4=={true}' to list `printed'. (on line 36)
 
 
 Package xsim Info: Setting property `collections' of exercise type `aufgabe'
-(xsim)             id `1' to value `all exercises'. (on line 19)
+(xsim)             id `1' to value `all exercises'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-1=={all exercises}' to list
-(xsim)             `collections'. (on line 19)
+(xsim)             `collections'. (on line 36)
 
 
 Package xsim Info: Adding `aufgabe-1=={all exercises}' to list `collections'.
-(xsim)             (on line 19)
+(xsim)             (on line 36)
 
 
 Package xsim Info: Setting property `collections' of exercise type `aufgabe'
-(xsim)             id `2' to value `all exercises'. (on line 19)
+(xsim)             id `2' to value `all exercises'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={all exercises}' to list
-(xsim)             `collections'. (on line 19)
+(xsim)             `collections'. (on line 36)
 
 
 Package xsim Info: Adding `aufgabe-2=={all exercises}' to list `collections'.
-(xsim)             (on line 19)
+(xsim)             (on line 36)
+
+
+Package xsim Info: Setting property `collections' of exercise type `aufgabe'
+(xsim)             id `3' to value `all exercises'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={all exercises}' to list
+(xsim)             `collections'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={all exercises}' to list `collections'.
+(xsim)             (on line 36)
+
+
+Package xsim Info: Setting property `collections' of exercise type `aufgabe'
+(xsim)             id `4' to value `all exercises'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={all exercises}' to list
+(xsim)             `collections'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={all exercises}' to list `collections'.
+(xsim)             (on line 36)
 
 
 Package xsim Info: Setting property `id' of exercise type `aufgabe' id `1' to
-(xsim)             value `1'. (on line 19)
+(xsim)             value `1'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={1}' to list `id'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={1}' to list `id'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `id'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `id'. (on line 36)
 
 
 Package xsim Info: Setting property `id' of exercise type `aufgabe' id `2' to
-(xsim)             value `2'. (on line 19)
+(xsim)             value `2'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={2}' to list `id'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={2}' to list `id'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={2}' to list `id'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={2}' to list `id'. (on line 36)
+
+
+Package xsim Info: Setting property `id' of exercise type `aufgabe' id `3' to
+(xsim)             value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `id'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `id'. (on line 36)
+
+
+Package xsim Info: Setting property `id' of exercise type `aufgabe' id `4' to
+(xsim)             value `4'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `id'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `id'. (on line 36)
 
 
 Package xsim Info: Setting property `ID' of exercise type `aufgabe' id `1' to
-(xsim)             value `1'. (on line 19)
+(xsim)             value `1'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={1}' to list `ID'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={1}' to list `ID'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `ID'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `ID'. (on line 36)
 
 
 Package xsim Info: Setting property `ID' of exercise type `aufgabe' id `2' to
-(xsim)             value `2'. (on line 19)
+(xsim)             value `2'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={2}' to list `ID'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={2}' to list `ID'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={2}' to list `ID'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={2}' to list `ID'. (on line 36)
+
+
+Package xsim Info: Setting property `ID' of exercise type `aufgabe' id `3' to
+(xsim)             value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `ID'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `ID'. (on line 36)
+
+
+Package xsim Info: Setting property `ID' of exercise type `aufgabe' id `4' to
+(xsim)             value `4'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `ID'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `ID'. (on line 36)
 
 
 Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
-(xsim)             `1' to value `1'. (on line 19)
+(xsim)             `1' to value `1'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={1}' to list `counter'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={1}' to list `counter'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `counter'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `counter'. (on line 36)
 
 
 Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
-(xsim)             `2' to value `2'. (on line 19)
+(xsim)             `2' to value `2'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={2}' to list `counter'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={2}' to list `counter'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={2}' to list `counter'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={2}' to list `counter'. (on line 36)
+
+
+Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
+(xsim)             `3' to value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `counter'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `counter'. (on line 36)
+
+
+Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
+(xsim)             `4' to value `4'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `counter'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `counter'. (on line 36)
 
 
 Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
-(xsim)             id `1' to value `1'. (on line 19)
+(xsim)             id `1' to value `1'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-1=={1}' to list `counter-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
 Package xsim Info: Adding `aufgabe-1=={1}' to list `counter-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
 Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
-(xsim)             id `2' to value `2'. (on line 19)
+(xsim)             id `2' to value `2'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={2}' to list `counter-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
 Package xsim Info: Adding `aufgabe-2=={2}' to list `counter-value'. (on line
-(xsim)             19)
+(xsim)             36)
+
+
+Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
+(xsim)             id `3' to value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `counter-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `counter-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
+(xsim)             id `4' to value `4'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `counter-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `counter-value'. (on line
+(xsim)             36)
 
 
 Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
-(xsim)             id `1' to value `0'. (on line 19)
+(xsim)             id `1' to value `0'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-1=={0}' to list `section-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
 Package xsim Info: Adding `aufgabe-1=={0}' to list `section-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
 Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
-(xsim)             id `2' to value `0'. (on line 19)
+(xsim)             id `2' to value `0'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={0}' to list `section-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
 Package xsim Info: Adding `aufgabe-2=={0}' to list `section-value'. (on line
-(xsim)             19)
+(xsim)             36)
+
+
+Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
+(xsim)             id `3' to value `0'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={0}' to list `section-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-3=={0}' to list `section-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
+(xsim)             id `4' to value `0'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={0}' to list `section-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-4=={0}' to list `section-value'. (on line
+(xsim)             36)
 
 
 Package xsim Info: Setting property `section' of exercise type `aufgabe' id
-(xsim)             `1' to value `0'. (on line 19)
+(xsim)             `1' to value `0'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={0}' to list `section'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={0}' to list `section'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={0}' to list `section'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={0}' to list `section'. (on line 36)
 
 
 Package xsim Info: Setting property `section' of exercise type `aufgabe' id
-(xsim)             `2' to value `0'. (on line 19)
+(xsim)             `2' to value `0'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={0}' to list `section'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={0}' to list `section'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={0}' to list `section'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={0}' to list `section'. (on line 36)
+
+
+Package xsim Info: Setting property `section' of exercise type `aufgabe' id
+(xsim)             `3' to value `0'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={0}' to list `section'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={0}' to list `section'. (on line 36)
+
+
+Package xsim Info: Setting property `section' of exercise type `aufgabe' id
+(xsim)             `4' to value `0'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={0}' to list `section'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={0}' to list `section'. (on line 36)
 
 
 Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
-(xsim)             `1' to value `{0}{0}{0}{0}{0}'. (on line 19)
+(xsim)             `1' to value `{0}{0}{0}{0}{0}'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-1=={{0}{0}{0}{0}{0}}' to list
-(xsim)             `sectioning'. (on line 19)
+(xsim)             `sectioning'. (on line 36)
 
 
 Package xsim Info: Adding `aufgabe-1=={{0}{0}{0}{0}{0}}' to list `sectioning'.
-(xsim)             (on line 19)
+(xsim)             (on line 36)
 
 
 Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
-(xsim)             `2' to value `{0}{0}{0}{0}{0}'. (on line 19)
+(xsim)             `2' to value `{0}{0}{0}{0}{0}'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={{0}{0}{0}{0}{0}}' to list
-(xsim)             `sectioning'. (on line 19)
+(xsim)             `sectioning'. (on line 36)
 
 
 Package xsim Info: Adding `aufgabe-2=={{0}{0}{0}{0}{0}}' to list `sectioning'.
-(xsim)             (on line 19)
+(xsim)             (on line 36)
+
+
+Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
+(xsim)             `3' to value `{0}{0}{0}{0}{0}'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={{0}{0}{0}{0}{0}}' to list
+(xsim)             `sectioning'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={{0}{0}{0}{0}{0}}' to list `sectioning'.
+(xsim)             (on line 36)
+
+
+Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
+(xsim)             `4' to value `{0}{0}{0}{0}{0}'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={{0}{0}{0}{0}{0}}' to list
+(xsim)             `sectioning'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={{0}{0}{0}{0}{0}}' to list `sectioning'.
+(xsim)             (on line 36)
 
 
 Package xsim Info: Setting property `points' of exercise type `aufgabe' id `1'
-(xsim)             to value `6'. (on line 19)
+(xsim)             to value `3'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={6}' to list `points'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={3}' to list `points'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={6}' to list `points'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={3}' to list `points'. (on line 36)
 
 
 Package xsim Info: Setting property `points' of exercise type `aufgabe' id `2'
-(xsim)             to value `5'. (on line 19)
+(xsim)             to value `5'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={5}' to list `points'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={5}' to list `points'. (on line 36)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `3'
+(xsim)             to value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `points'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `points'. (on line 36)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `4'
+(xsim)             to value `5'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `points'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={5}' to list `points'. (on line 36)
 
 
 Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
-(xsim)             `1' to value `1'. (on line 19)
+(xsim)             `1' to value `1'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-1=={1}' to list `page-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `page-value'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `page-value'. (on line 36)
 
 
 Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
-(xsim)             `2' to value `1'. (on line 19)
+(xsim)             `2' to value `1'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={1}' to list `page-value'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
-Package xsim Info: Adding `aufgabe-2=={1}' to list `page-value'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={1}' to list `page-value'. (on line 36)
+
+
+Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
+(xsim)             `3' to value `1'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={1}' to list `page-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-3=={1}' to list `page-value'. (on line 36)
+
+
+Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
+(xsim)             `4' to value `1'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={1}' to list `page-value'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-4=={1}' to list `page-value'. (on line 36)
 
 
 Package xsim Info: Setting property `page' of exercise type `aufgabe' id `1'
-(xsim)             to value `1'. (on line 19)
+(xsim)             to value `1'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-1=={1}' to list `page'. (on line 19)
+Package xsim Info: Removing `aufgabe-1=={1}' to list `page'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `page'. (on line 19)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `page'. (on line 36)
 
 
 Package xsim Info: Setting property `page' of exercise type `aufgabe' id `2'
-(xsim)             to value `1'. (on line 19)
+(xsim)             to value `1'. (on line 36)
 
 
-Package xsim Info: Removing `aufgabe-2=={1}' to list `page'. (on line 19)
+Package xsim Info: Removing `aufgabe-2=={1}' to list `page'. (on line 36)
 
 
-Package xsim Info: Adding `aufgabe-2=={1}' to list `page'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={1}' to list `page'. (on line 36)
+
+
+Package xsim Info: Setting property `page' of exercise type `aufgabe' id `3'
+(xsim)             to value `1'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={1}' to list `page'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-3=={1}' to list `page'. (on line 36)
+
+
+Package xsim Info: Setting property `page' of exercise type `aufgabe' id `4'
+(xsim)             to value `1'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={1}' to list `page'. (on line 36)
+
+
+Package xsim Info: Adding `aufgabe-4=={1}' to list `page'. (on line 36)
+
+
+Package xsim Info: Setting property `userpoints' of exercise type `aufgabe' id
+(xsim)             `1' to value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-1=={3}' to list `userpoints'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-1=={3}' to list `userpoints'. (on line 36)
+
+
+Package xsim Info: Setting property `userpoints' of exercise type `aufgabe' id
+(xsim)             `3' to value `3'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `userpoints'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `userpoints'. (on line 36)
 
 
 Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `1' to value `6'. (on line 19)
-
-
-Package xsim Info: Removing `aufgabe-1=={6}' to list `bodypoints'. (on line
-(xsim)             19)
-
-
-Package xsim Info: Adding `aufgabe-1=={6}' to list `bodypoints'. (on line 19)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `2' to value `5'. (on line 19)
+(xsim)             `2' to value `5'. (on line 36)
 
 
 Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
-(xsim)             19)
+(xsim)             36)
 
 
-Package xsim Info: Adding `aufgabe-2=={5}' to list `bodypoints'. (on line 19)
+Package xsim Info: Adding `aufgabe-2=={5}' to list `bodypoints'. (on line 36)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `4' to value `5'. (on line 36)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `bodypoints'. (on line
+(xsim)             36)
+
+
+Package xsim Info: Adding `aufgabe-4=={5}' to list `bodypoints'. (on line 36)
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
@@ -4492,22 +4946,22 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 19.
-Package hyperref Info: Link coloring OFF on input line 19.
+or `german'. on input line 36.
+Package hyperref Info: Link coloring OFF on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count436
+\c@section@level=\count420
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
-(./lk_potenzfunktionen.out) (./lk_potenzfunktionen.out)
+(./test.out) (./test.out)
 \@outlinefile=\write5
-\openout5 = `lk_potenzfunktionen.out'.
+\openout5 = `test.out'.
 
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
@@ -4516,854 +4970,1444 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 19.
+(scrartcl)           before \begin{document} on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count437
+\BKM@id=\count421
 ))
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 36.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 36.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 412.56497pt, 113.81102pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=412.56497pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-41.0131pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.39188pt on input line 38.
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 13.39188pt on input line 38.
 
 Package xsim Info: Setting parameter `exercise-template' for type `aufgabe' to
-(xsim)             `schule-randpunkte'. (on line 20)
+(xsim)             `schule-randpunkte'. (on line 44)
 
 
-Package xsim Info: Adding `1=={aufgabe}' to list `idtypes'. (on line 21)
+Package xsim Info: Adding `1=={aufgabe}' to list `idtypes'. (on line 46)
 
 
 Package xsim Info: Un-setting property `points' of exercise type `aufgabe' id
-(xsim)             `1'. (on line 21)
+(xsim)             `1'. (on line 46)
 
 
-Package xsim Info: Removing `aufgabe-1=={6}' to list `points'. (on line 21)
-
-
-Package xsim Info: Setting property `id' of exercise type `aufgabe' id `1' to
-(xsim)             value `1'. (on line 21)
-
-
-Package xsim Info: Removing `aufgabe-1=={1}' to list `id'. (on line 21)
-
-
-Package xsim Info: Adding `aufgabe-1=={1}' to list `id'. (on line 21)
-
-
-Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
-(xsim)             `1' to value `false'. (on line 21)
-
-
-Package xsim Info: Removing `aufgabe-1=={true}' to list `printed'. (on line
-(xsim)             21)
-
-
-Package xsim Info: Adding `aufgabe-1=={false}' to list `printed'. (on line 21)
-
-
-Package xsim Info: Setting property `used' of exercise type `aufgabe' id `1'
-(xsim)             to value `false'. (on line 21)
-
-
-Package xsim Info: Removing `aufgabe-1=={true}' to list `used'. (on line 21)
-
-
-Package xsim Info: Adding `aufgabe-1=={false}' to list `used'. (on line 21)
+Package xsim Info: Removing `aufgabe-1=={3}' to list `points'. (on line 46)
 
 
 Package xsim Info: Setting property `points' of exercise type `aufgabe' id `1'
-(xsim)             to value `6'. (on line 21)
+(xsim)             to value `3'. (on line 46)
 
 
-Package xsim Info: Removing `aufgabe-1=={6}' to list `points'. (on line 21)
+Package xsim Info: Removing `aufgabe-1=={3}' to list `points'. (on line 46)
 
 
-Package xsim Info: Adding `aufgabe-1=={6}' to list `points'. (on line 21)
+Package xsim Info: Adding `aufgabe-1=={3}' to list `points'. (on line 46)
+
+
+Package xsim Info: Setting property `id' of exercise type `aufgabe' id `1' to
+(xsim)             value `1'. (on line 46)
+
+
+Package xsim Info: Removing `aufgabe-1=={1}' to list `id'. (on line 46)
+
+
+Package xsim Info: Adding `aufgabe-1=={1}' to list `id'. (on line 46)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `1' to value `false'. (on line 46)
+
+
+Package xsim Info: Removing `aufgabe-1=={true}' to list `printed'. (on line
+(xsim)             46)
+
+
+Package xsim Info: Adding `aufgabe-1=={false}' to list `printed'. (on line 46)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `1'
+(xsim)             to value `false'. (on line 46)
+
+
+Package xsim Info: Removing `aufgabe-1=={true}' to list `used'. (on line 46)
+
+
+Package xsim Info: Adding `aufgabe-1=={false}' to list `used'. (on line 46)
+
+
+Package xsim Info: Setting property `userpoints' of exercise type `aufgabe' id
+(xsim)             `1' to value `3'. (on line 46)
+
+
+Package xsim Info: Removing `aufgabe-1=={3}' to list `userpoints'. (on line
+(xsim)             46)
+
+
+Package xsim Info: Adding `aufgabe-1=={3}' to list `userpoints'. (on line 46)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `1'
+(xsim)             to value `3'. (on line 46)
+
+
+Package xsim Info: Removing `aufgabe-1=={3}' to list `points'. (on line 46)
+
+
+Package xsim Info: Adding `aufgabe-1=={3}' to list `points'. (on line 46)
 
 
 Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
-(xsim)             `1' to value `1'. (on line 21)
+(xsim)             `1' to value `1'. (on line 46)
 
 
-Package xsim Info: Removing `aufgabe-1=={1}' to list `counter'. (on line 21)
+Package xsim Info: Removing `aufgabe-1=={1}' to list `counter'. (on line 46)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `counter'. (on line 21)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `counter'. (on line 46)
 
 
 Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
-(xsim)             id `1' to value `1'. (on line 21)
+(xsim)             id `1' to value `1'. (on line 46)
 
 
 Package xsim Info: Removing `aufgabe-1=={1}' to list `counter-value'. (on line
-(xsim)             21)
+(xsim)             46)
 
 
 Package xsim Info: Adding `aufgabe-1=={1}' to list `counter-value'. (on line
-(xsim)             21)
+(xsim)             46)
 
 
 Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
-(xsim)             id `1' to value `0'. (on line 21)
+(xsim)             id `1' to value `0'. (on line 46)
 
 
 Package xsim Info: Removing `aufgabe-1=={0}' to list `section-value'. (on line
-(xsim)             21)
+(xsim)             46)
 
 
 Package xsim Info: Adding `aufgabe-1=={0}' to list `section-value'. (on line
-(xsim)             21)
+(xsim)             46)
 
 
 Package xsim Info: Setting property `section' of exercise type `aufgabe' id
-(xsim)             `1' to value `0'. (on line 21)
+(xsim)             `1' to value `0'. (on line 46)
 
 
-Package xsim Info: Removing `aufgabe-1=={0}' to list `section'. (on line 21)
+Package xsim Info: Removing `aufgabe-1=={0}' to list `section'. (on line 46)
 
 
-Package xsim Info: Adding `aufgabe-1=={0}' to list `section'. (on line 21)
+Package xsim Info: Adding `aufgabe-1=={0}' to list `section'. (on line 46)
 
 
 Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
-(xsim)             `1' to value `1'. (on line 21)
+(xsim)             `1' to value `1'. (on line 46)
 
 
 Package xsim Info: Removing `aufgabe-1=={1}' to list `page-value'. (on line
-(xsim)             21)
+(xsim)             46)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `page-value'. (on line 21)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `page-value'. (on line 46)
 
 
 Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
-(xsim)             `1' to value `{0}{0}{0}{0}{0}'. (on line 21)
+(xsim)             `1' to value `{0}{0}{0}{0}{0}'. (on line 46)
 
 
 Package xsim Info: Removing `aufgabe-1=={{0}{0}{0}{0}{0}}' to list
-(xsim)             `sectioning'. (on line 21)
+(xsim)             `sectioning'. (on line 46)
 
 
 Package xsim Info: Adding `aufgabe-1=={{0}{0}{0}{0}{0}}' to list `sectioning'.
-(xsim)             (on line 21)
+(xsim)             (on line 46)
 
 
 Package xsim Info: Setting property `page' of exercise type `aufgabe' id `1'
-(xsim)             to value `1'. (on line 21)
+(xsim)             to value `1'. (on line 46)
 
 
-Package xsim Info: Removing `aufgabe-1=={1}' to list `page'. (on line 21)
+Package xsim Info: Removing `aufgabe-1=={1}' to list `page'. (on line 46)
 
 
-Package xsim Info: Adding `aufgabe-1=={1}' to list `page'. (on line 21)
+Package xsim Info: Adding `aufgabe-1=={1}' to list `page'. (on line 46)
 
 
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `1' to value `0'. (on line 21)
-
-
-Package xsim Info: Removing `aufgabe-1=={6}' to list `bodypoints'. (on line
-(xsim)             21)
-
-
-Package xsim Info: Adding `aufgabe-1=={0}' to list `bodypoints'. (on line 21)
-
-
-Package xsim Info: Starting exercise type `aufgabe'with id `1'. (on line 21)
+Package xsim Info: Starting exercise type `aufgabe'with id `1'. (on line 46)
 
 
 Package xsim Info: Adding exercise type `aufgabe' ID `1' to collection `all
-(xsim)             exercises'. (on line 21)
+(xsim)             exercises'. (on line 46)
 
 
 Package xsim Info: Setting property `collections' of exercise type `aufgabe'
-(xsim)             id `1' to value `all exercises'. (on line 21)
+(xsim)             id `1' to value `all exercises'. (on line 46)
 
 
 Package xsim Info: Removing `aufgabe-1=={all exercises}' to list
-(xsim)             `collections'. (on line 21)
+(xsim)             `collections'. (on line 46)
 
 
 Package xsim Info: Adding `aufgabe-1=={all exercises}' to list `collections'.
-(xsim)             (on line 21)
+(xsim)             (on line 46)
 
 
 Package xsim Info: Adding `aufgabe-1' to list `collection:all exercises'. (on
-(xsim)             line 21)
+(xsim)             line 46)
 
 
 Package xsim Info: Starting to write exercise environment type `aufgabe' id
-(xsim)             `1' (on line 21)
+(xsim)             `1' (on line 46)
 
 
-Package xsim Info: (Re-)writing file
-(xsim)             `lk_potenzfunktionen-aufgabe-1-exercise-body.xsim'. (on
-(xsim)             line 21)
+Package xsim Info: (Re-)writing file `test-aufgabe-1-exercise-body.xsim'. (on
+(xsim)             line 46)
 
 \l__xsim_file_contents_iow=\write6
-\openout6 = `lk_potenzfunktionen-aufgabe-1-exercise-body.xsim'.
+\openout6 = `test-aufgabe-1-exercise-body.xsim'.
 
 
 Package xsim Info: Typesetting exercise environment type `aufgabe' id `1' (on
+(xsim)             line 48)
+
+LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
+(Font)              scaled to size 11.15991pt on input line 48.
+(./test-aufgabe-1-exercise-body.xsim)
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `1'
+(xsim)             to value `3'. (on line 48)
+
+
+Package xsim Info: Removing `aufgabe-1=={3}' to list `points'. (on line 48)
+
+
+Package xsim Info: Adding `aufgabe-1=={3}' to list `points'. (on line 48)
+
+
+Package xsim Info: Setting property `(printed)' of exercise type `aufgabe' id
+(xsim)             `1' to value `true'. (on line 48)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `1' to value `true'. (on line 48)
+
+
+Package xsim Info: Removing `aufgabe-1=={true}' to list `printed'. (on line
+(xsim)             48)
+
+
+Package xsim Info: Removing `aufgabe-1=={false}' to list `printed'. (on line
+(xsim)             48)
+
+
+Package xsim Info: Adding `aufgabe-1=={true}' to list `printed'. (on line 48)
+
+
+Package xsim Info: Setting property `(used)' of exercise type `aufgabe' id `1'
+(xsim)             to value `true'. (on line 48)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `1'
+(xsim)             to value `true'. (on line 48)
+
+
+Package xsim Info: Removing `aufgabe-1=={true}' to list `used'. (on line 48)
+
+
+Package xsim Info: Removing `aufgabe-1=={false}' to list `used'. (on line 48)
+
+
+Package xsim Info: Adding `aufgabe-1=={true}' to list `used'. (on line 48)
+
+
+Package xsim Info: Adding `2=={aufgabe}' to list `idtypes'. (on line 51)
+
+
+Package xsim Info: Un-setting property `points' of exercise type `aufgabe' id
+(xsim)             `2'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 51)
+
+
+Package xsim Info: Setting property `id' of exercise type `aufgabe' id `2' to
+(xsim)             value `2'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={2}' to list `id'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={2}' to list `id'. (on line 51)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `2' to value `false'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={true}' to list `printed'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Adding `aufgabe-2=={false}' to list `printed'. (on line 51)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `2'
+(xsim)             to value `false'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={true}' to list `used'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={false}' to list `used'. (on line 51)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `2'
+(xsim)             to value `5'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={5}' to list `points'. (on line 51)
+
+
+Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
+(xsim)             `2' to value `2'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={2}' to list `counter'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={2}' to list `counter'. (on line 51)
+
+
+Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
+(xsim)             id `2' to value `2'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={2}' to list `counter-value'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Adding `aufgabe-2=={2}' to list `counter-value'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
+(xsim)             id `2' to value `0'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={0}' to list `section-value'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Adding `aufgabe-2=={0}' to list `section-value'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Setting property `section' of exercise type `aufgabe' id
+(xsim)             `2' to value `0'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={0}' to list `section'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={0}' to list `section'. (on line 51)
+
+
+Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
+(xsim)             `2' to value `1'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={1}' to list `page-value'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Adding `aufgabe-2=={1}' to list `page-value'. (on line 51)
+
+
+Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
+(xsim)             `2' to value `{0}{0}{0}{0}{0}'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={{0}{0}{0}{0}{0}}' to list
+(xsim)             `sectioning'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={{0}{0}{0}{0}{0}}' to list `sectioning'.
+(xsim)             (on line 51)
+
+
+Package xsim Info: Setting property `page' of exercise type `aufgabe' id `2'
+(xsim)             to value `1'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={1}' to list `page'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={1}' to list `page'. (on line 51)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `2' to value `0'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
+(xsim)             51)
+
+
+Package xsim Info: Adding `aufgabe-2=={0}' to list `bodypoints'. (on line 51)
+
+
+Package xsim Info: Starting exercise type `aufgabe'with id `2'. (on line 51)
+
+
+Package xsim Info: Adding exercise type `aufgabe' ID `2' to collection `all
+(xsim)             exercises'. (on line 51)
+
+
+Package xsim Info: Setting property `collections' of exercise type `aufgabe'
+(xsim)             id `2' to value `all exercises'. (on line 51)
+
+
+Package xsim Info: Removing `aufgabe-2=={all exercises}' to list
+(xsim)             `collections'. (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2=={all exercises}' to list `collections'.
+(xsim)             (on line 51)
+
+
+Package xsim Info: Adding `aufgabe-2' to list `collection:all exercises'. (on
 (xsim)             line 51)
 
-(./lk_potenzfunktionen-aufgabe-1-exercise-body.xsim
-Underfull \hbox (badness 10000) in paragraph at lines 51--11
 
- []
+Package xsim Info: Starting to write exercise environment type `aufgabe' id
+(xsim)             `2' (on line 51)
 
-Package pgfplots info on input line 24: Overriding colorspace to gray due to xc
-olor configuration.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+
+Package xsim Info: (Re-)writing file `test-aufgabe-2-exercise-body.xsim'. (on
+(xsim)             line 51)
+
+\openout6 = `test-aufgabe-2-exercise-body.xsim'.
+
+
+Package xsim Info: Typesetting exercise environment type `aufgabe' id `2' (on
+(xsim)             line 57)
+
+ (./test-aufgabe-2-exercise-body.xsim
+
+Package xsim Info: Adding `2' to `points' goal of aufgabe 2 (on line 12)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `2' to value `2'. (on line 12)
+
+
+Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
+(xsim)             12)
+
+
+Package xsim Info: Removing `aufgabe-2=={0}' to list `bodypoints'. (on line
+(xsim)             12)
+
+
+Package xsim Info: Adding `aufgabe-2=={2}' to list `bodypoints'. (on line 12)
+
+
+Package xsim Info: Adding `3' to `points' goal of aufgabe 2 (on line 13)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `2' to value `5'. (on line 13)
+
+
+Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
+(xsim)             13)
+
+
+Package xsim Info: Removing `aufgabe-2=={2}' to list `bodypoints'. (on line
+(xsim)             13)
+
+
+Package xsim Info: Adding `aufgabe-2=={5}' to list `bodypoints'. (on line 13)
+
+)
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `2'
+(xsim)             to value `5'. (on line 57)
+
+
+Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 57)
+
+
+Package xsim Info: Adding `aufgabe-2=={5}' to list `points'. (on line 57)
+
+
+Package xsim Info: Setting property `(printed)' of exercise type `aufgabe' id
+(xsim)             `2' to value `true'. (on line 57)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `2' to value `true'. (on line 57)
+
+
+Package xsim Info: Removing `aufgabe-2=={true}' to list `printed'. (on line
+(xsim)             57)
+
+
+Package xsim Info: Removing `aufgabe-2=={false}' to list `printed'. (on line
+(xsim)             57)
+
+
+Package xsim Info: Adding `aufgabe-2=={true}' to list `printed'. (on line 57)
+
+
+Package xsim Info: Setting property `(used)' of exercise type `aufgabe' id `2'
+(xsim)             to value `true'. (on line 57)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `2'
+(xsim)             to value `true'. (on line 57)
+
+
+Package xsim Info: Removing `aufgabe-2=={true}' to list `used'. (on line 57)
+
+
+Package xsim Info: Removing `aufgabe-2=={false}' to list `used'. (on line 57)
+
+
+Package xsim Info: Adding `aufgabe-2=={true}' to list `used'. (on line 57)
+
+
+Package xsim Info: Adding `3=={aufgabe}' to list `idtypes'. (on line 59)
+
+
+Package xsim Info: Un-setting property `points' of exercise type `aufgabe' id
+(xsim)             `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `points'. (on line 59)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `3'
+(xsim)             to value `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `points'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `points'. (on line 59)
+
+
+Package xsim Info: Setting property `id' of exercise type `aufgabe' id `3' to
+(xsim)             value `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `id'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `id'. (on line 59)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `3' to value `false'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={true}' to list `printed'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Adding `aufgabe-3=={false}' to list `printed'. (on line 59)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `3'
+(xsim)             to value `false'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={true}' to list `used'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={false}' to list `used'. (on line 59)
+
+
+Package xsim Info: Setting property `userpoints' of exercise type `aufgabe' id
+(xsim)             `3' to value `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `userpoints'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `userpoints'. (on line 59)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `3'
+(xsim)             to value `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `points'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `points'. (on line 59)
+
+
+Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
+(xsim)             `3' to value `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `counter'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `counter'. (on line 59)
+
+
+Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
+(xsim)             id `3' to value `3'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `counter-value'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `counter-value'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
+(xsim)             id `3' to value `0'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={0}' to list `section-value'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Adding `aufgabe-3=={0}' to list `section-value'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Setting property `section' of exercise type `aufgabe' id
+(xsim)             `3' to value `0'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={0}' to list `section'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={0}' to list `section'. (on line 59)
+
+
+Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
+(xsim)             `3' to value `1'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={1}' to list `page-value'. (on line
+(xsim)             59)
+
+
+Package xsim Info: Adding `aufgabe-3=={1}' to list `page-value'. (on line 59)
+
+
+Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
+(xsim)             `3' to value `{0}{0}{0}{0}{0}'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={{0}{0}{0}{0}{0}}' to list
+(xsim)             `sectioning'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={{0}{0}{0}{0}{0}}' to list `sectioning'.
+(xsim)             (on line 59)
+
+
+Package xsim Info: Setting property `page' of exercise type `aufgabe' id `3'
+(xsim)             to value `1'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={1}' to list `page'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={1}' to list `page'. (on line 59)
+
+
+Package xsim Info: Starting exercise type `aufgabe'with id `3'. (on line 59)
+
+
+Package xsim Info: Adding exercise type `aufgabe' ID `3' to collection `all
+(xsim)             exercises'. (on line 59)
+
+
+Package xsim Info: Setting property `collections' of exercise type `aufgabe'
+(xsim)             id `3' to value `all exercises'. (on line 59)
+
+
+Package xsim Info: Removing `aufgabe-3=={all exercises}' to list
+(xsim)             `collections'. (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3=={all exercises}' to list `collections'.
+(xsim)             (on line 59)
+
+
+Package xsim Info: Adding `aufgabe-3' to list `collection:all exercises'. (on
+(xsim)             line 59)
+
+
+Package xsim Info: Starting to write exercise environment type `aufgabe' id
+(xsim)             `3' (on line 59)
+
+
+Package xsim Info: (Re-)writing file `test-aufgabe-3-exercise-body.xsim'. (on
+(xsim)             line 59)
+
+\openout6 = `test-aufgabe-3-exercise-body.xsim'.
+
+
+Package xsim Info: Typesetting exercise environment type `aufgabe' id `3' (on
+(xsim)             line 61)
+
+
+(./test-aufgabe-3-exercise-body.xsim)
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `3'
+(xsim)             to value `3'. (on line 61)
+
+
+Package xsim Info: Removing `aufgabe-3=={3}' to list `points'. (on line 61)
+
+
+Package xsim Info: Adding `aufgabe-3=={3}' to list `points'. (on line 61)
+
+
+Package xsim Info: Setting property `(printed)' of exercise type `aufgabe' id
+(xsim)             `3' to value `true'. (on line 61)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `3' to value `true'. (on line 61)
+
+
+Package xsim Info: Removing `aufgabe-3=={true}' to list `printed'. (on line
+(xsim)             61)
+
+
+Package xsim Info: Removing `aufgabe-3=={false}' to list `printed'. (on line
+(xsim)             61)
+
+
+Package xsim Info: Adding `aufgabe-3=={true}' to list `printed'. (on line 61)
+
+
+Package xsim Info: Setting property `(used)' of exercise type `aufgabe' id `3'
+(xsim)             to value `true'. (on line 61)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `3'
+(xsim)             to value `true'. (on line 61)
+
+
+Package xsim Info: Removing `aufgabe-3=={true}' to list `used'. (on line 61)
+
+
+Package xsim Info: Removing `aufgabe-3=={false}' to list `used'. (on line 61)
+
+
+Package xsim Info: Adding `aufgabe-3=={true}' to list `used'. (on line 61)
+
+
+Package xsim Info: Adding `4=={aufgabe}' to list `idtypes'. (on line 64)
+
+
+Package xsim Info: Un-setting property `points' of exercise type `aufgabe' id
+(xsim)             `4'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `points'. (on line 64)
+
+
+Package xsim Info: Setting property `id' of exercise type `aufgabe' id `4' to
+(xsim)             value `4'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `id'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `id'. (on line 64)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `4' to value `false'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={true}' to list `printed'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Adding `aufgabe-4=={false}' to list `printed'. (on line 64)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `4'
+(xsim)             to value `false'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={true}' to list `used'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={false}' to list `used'. (on line 64)
+
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `4'
+(xsim)             to value `5'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `points'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={5}' to list `points'. (on line 64)
+
+
+Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
+(xsim)             `4' to value `4'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `counter'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `counter'. (on line 64)
+
+
+Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
+(xsim)             id `4' to value `4'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={4}' to list `counter-value'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Adding `aufgabe-4=={4}' to list `counter-value'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
+(xsim)             id `4' to value `0'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={0}' to list `section-value'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Adding `aufgabe-4=={0}' to list `section-value'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Setting property `section' of exercise type `aufgabe' id
+(xsim)             `4' to value `0'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={0}' to list `section'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={0}' to list `section'. (on line 64)
+
+
+Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
+(xsim)             `4' to value `1'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={1}' to list `page-value'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Adding `aufgabe-4=={1}' to list `page-value'. (on line 64)
+
+
+Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
+(xsim)             `4' to value `{0}{0}{0}{0}{0}'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={{0}{0}{0}{0}{0}}' to list
+(xsim)             `sectioning'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={{0}{0}{0}{0}{0}}' to list `sectioning'.
+(xsim)             (on line 64)
+
+
+Package xsim Info: Setting property `page' of exercise type `aufgabe' id `4'
+(xsim)             to value `1'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={1}' to list `page'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={1}' to list `page'. (on line 64)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `4' to value `0'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `bodypoints'. (on line
+(xsim)             64)
+
+
+Package xsim Info: Adding `aufgabe-4=={0}' to list `bodypoints'. (on line 64)
+
+
+Package xsim Info: Starting exercise type `aufgabe'with id `4'. (on line 64)
+
+
+Package xsim Info: Adding exercise type `aufgabe' ID `4' to collection `all
+(xsim)             exercises'. (on line 64)
+
+
+Package xsim Info: Setting property `collections' of exercise type `aufgabe'
+(xsim)             id `4' to value `all exercises'. (on line 64)
+
+
+Package xsim Info: Removing `aufgabe-4=={all exercises}' to list
+(xsim)             `collections'. (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4=={all exercises}' to list `collections'.
+(xsim)             (on line 64)
+
+
+Package xsim Info: Adding `aufgabe-4' to list `collection:all exercises'. (on
+(xsim)             line 64)
+
+
+Package xsim Info: Starting to write exercise environment type `aufgabe' id
+(xsim)             `4' (on line 64)
+
+
+Package xsim Info: (Re-)writing file `test-aufgabe-4-exercise-body.xsim'. (on
+(xsim)             line 64)
+
+\openout6 = `test-aufgabe-4-exercise-body.xsim'.
+
+
+Package xsim Info: Typesetting exercise environment type `aufgabe' id `4' (on
+(xsim)             line 70)
+
+ (./test-aufgabe-4-exercise-body.xsim
+
+Package xsim Info: Adding `2' to `points' goal of aufgabe 4 (on line 12)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `4' to value `2'. (on line 12)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `bodypoints'. (on line
+(xsim)             12)
+
+
+Package xsim Info: Removing `aufgabe-4=={0}' to list `bodypoints'. (on line
+(xsim)             12)
+
+
+Package xsim Info: Adding `aufgabe-4=={2}' to list `bodypoints'. (on line 12)
+
+
+Package xsim Info: Adding `3' to `points' goal of aufgabe 4 (on line 13)
+
+
+Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
+(xsim)             `4' to value `5'. (on line 13)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `bodypoints'. (on line
+(xsim)             13)
+
+
+Package xsim Info: Removing `aufgabe-4=={2}' to list `bodypoints'. (on line
+(xsim)             13)
+
+
+Package xsim Info: Adding `aufgabe-4=={5}' to list `bodypoints'. (on line 13)
+
+)
+
+Package xsim Info: Setting property `points' of exercise type `aufgabe' id `4'
+(xsim)             to value `5'. (on line 70)
+
+
+Package xsim Info: Removing `aufgabe-4=={5}' to list `points'. (on line 70)
+
+
+Package xsim Info: Adding `aufgabe-4=={5}' to list `points'. (on line 70)
+
+
+Package xsim Info: Setting property `(printed)' of exercise type `aufgabe' id
+(xsim)             `4' to value `true'. (on line 70)
+
+
+Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
+(xsim)             `4' to value `true'. (on line 70)
+
+
+Package xsim Info: Removing `aufgabe-4=={true}' to list `printed'. (on line
+(xsim)             70)
+
+
+Package xsim Info: Removing `aufgabe-4=={false}' to list `printed'. (on line
+(xsim)             70)
+
+
+Package xsim Info: Adding `aufgabe-4=={true}' to list `printed'. (on line 70)
+
+
+Package xsim Info: Setting property `(used)' of exercise type `aufgabe' id `4'
+(xsim)             to value `true'. (on line 70)
+
+
+Package xsim Info: Setting property `used' of exercise type `aufgabe' id `4'
+(xsim)             to value `true'. (on line 70)
+
+
+Package xsim Info: Removing `aufgabe-4=={true}' to list `used'. (on line 70)
+
+
+Package xsim Info: Removing `aufgabe-4=={false}' to list `used'. (on line 70)
+
+
+Package xsim Info: Adding `aufgabe-4=={true}' to list `used'. (on line 70)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/utfsym/usym26A0.tikz)
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.36993pt on input line 78.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.50995pt on input line 78.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 78.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 78.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
+78.
 
-Package xsim Info: Adding `3' to `points' goal of aufgabe 1 (on line 32)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `1' to value `3'. (on line 32)
-
-
-Package xsim Info: Removing `aufgabe-1=={6}' to list `bodypoints'. (on line
-(xsim)             32)
-
-
-Package xsim Info: Removing `aufgabe-1=={0}' to list `bodypoints'. (on line
-(xsim)             32)
-
-
-Package xsim Info: Adding `aufgabe-1=={3}' to list `bodypoints'. (on line 32)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
-
- []
-
-
-Overfull \hbox (36.31065pt too wide) in paragraph at lines 32--36
-[] 
- []
-
-
-Package xsim Info: Adding `2' to `points' goal of aufgabe 1 (on line 36)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `1' to value `5'. (on line 36)
-
-
-Package xsim Info: Removing `aufgabe-1=={6}' to list `bodypoints'. (on line
-(xsim)             36)
-
-
-Package xsim Info: Removing `aufgabe-1=={3}' to list `bodypoints'. (on line
-(xsim)             36)
-
-
-Package xsim Info: Adding `aufgabe-1=={5}' to list `bodypoints'. (on line 36)
-
-
-Package xsim Info: Adding `1' to `points' goal of aufgabe 1 (on line 37)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `1' to value `6'. (on line 37)
-
-
-Package xsim Info: Removing `aufgabe-1=={6}' to list `bodypoints'. (on line
-(xsim)             37)
-
-
-Package xsim Info: Removing `aufgabe-1=={5}' to list `bodypoints'. (on line
-(xsim)             37)
-
-
-Package xsim Info: Adding `aufgabe-1=={6}' to list `bodypoints'. (on line 37)
-
+(/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
+File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 78.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 78.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 78.
 
-Package xsim Info: Setting property `points' of exercise type `aufgabe' id `1'
-(xsim)             to value `6'. (on line 51)
+Package xsim Info: Writing command \XSIM {goal} to aux file (on line 81)
 
 
-Package xsim Info: Removing `aufgabe-1=={6}' to list `points'. (on line 51)
+Package xsim Info: Writing command \XSIM {goal} to aux file (on line 81)
 
 
-Package xsim Info: Adding `aufgabe-1=={6}' to list `points'. (on line 51)
+Package xsim Info: Writing command \XSIM {goal} to aux file (on line 81)
 
 
-Package xsim Info: Setting property `(printed)' of exercise type `aufgabe' id
-(xsim)             `1' to value `true'. (on line 51)
+Package xsim Info: Writing command \XSIM {totalgoal} to aux file (on line 81)
 
 
-Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
-(xsim)             `1' to value `true'. (on line 51)
+Package xsim Info: Writing command \XSIM {goal} to aux file (on line 81)
 
 
-Package xsim Info: Removing `aufgabe-1=={true}' to list `printed'. (on line
-(xsim)             51)
+Package xsim Info: Writing command \XSIM {goal} to aux file (on line 81)
 
 
-Package xsim Info: Removing `aufgabe-1=={false}' to list `printed'. (on line
-(xsim)             51)
+Package xsim Info: Writing command \XSIM {goal} to aux file (on line 81)
 
 
-Package xsim Info: Adding `aufgabe-1=={true}' to list `printed'. (on line 51)
+Package xsim Info: Writing command \XSIM {totalgoal} to aux file (on line 81)
 
 
-Package xsim Info: Setting property `(used)' of exercise type `aufgabe' id `1'
-(xsim)             to value `true'. (on line 51)
+Package xsim Info: Updating list `use'. (on line 81)
 
 
-Package xsim Info: Setting property `used' of exercise type `aufgabe' id `1'
-(xsim)             to value `true'. (on line 51)
+Package xsim Info: Writing command \XSIM {use} to aux file (on line 81)
 
 
-Package xsim Info: Removing `aufgabe-1=={true}' to list `used'. (on line 51)
+Package xsim Info: Updating list `used'. (on line 81)
 
 
-Package xsim Info: Removing `aufgabe-1=={false}' to list `used'. (on line 51)
+Package xsim Info: Writing command \XSIM {used} to aux file (on line 81)
 
 
-Package xsim Info: Adding `aufgabe-1=={true}' to list `used'. (on line 51)
+Package xsim Info: Updating list `print'. (on line 81)
 
 
-Package xsim Info: Adding `2=={aufgabe}' to list `idtypes'. (on line 52)
+Package xsim Info: Writing command \XSIM {print} to aux file (on line 81)
 
 
-Package xsim Info: Un-setting property `points' of exercise type `aufgabe' id
-(xsim)             `2'. (on line 52)
+Package xsim Info: Updating list `printed'. (on line 81)
 
 
-Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 52)
-
-
-Package xsim Info: Setting property `id' of exercise type `aufgabe' id `2' to
-(xsim)             value `2'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={2}' to list `id'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={2}' to list `id'. (on line 52)
-
-
-Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
-(xsim)             `2' to value `false'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={true}' to list `printed'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Adding `aufgabe-2=={false}' to list `printed'. (on line 52)
-
-
-Package xsim Info: Setting property `used' of exercise type `aufgabe' id `2'
-(xsim)             to value `false'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={true}' to list `used'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={false}' to list `used'. (on line 52)
-
-
-Package xsim Info: Setting property `points' of exercise type `aufgabe' id `2'
-(xsim)             to value `5'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={5}' to list `points'. (on line 52)
-
-
-Package xsim Info: Setting property `counter' of exercise type `aufgabe' id
-(xsim)             `2' to value `2'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={2}' to list `counter'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={2}' to list `counter'. (on line 52)
-
-
-Package xsim Info: Setting property `counter-value' of exercise type `aufgabe'
-(xsim)             id `2' to value `2'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={2}' to list `counter-value'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Adding `aufgabe-2=={2}' to list `counter-value'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Setting property `section-value' of exercise type `aufgabe'
-(xsim)             id `2' to value `0'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={0}' to list `section-value'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Adding `aufgabe-2=={0}' to list `section-value'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Setting property `section' of exercise type `aufgabe' id
-(xsim)             `2' to value `0'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={0}' to list `section'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={0}' to list `section'. (on line 52)
-
-
-Package xsim Info: Setting property `page-value' of exercise type `aufgabe' id
-(xsim)             `2' to value `1'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={1}' to list `page-value'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Adding `aufgabe-2=={1}' to list `page-value'. (on line 52)
-
-
-Package xsim Info: Setting property `sectioning' of exercise type `aufgabe' id
-(xsim)             `2' to value `{0}{0}{0}{0}{0}'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={{0}{0}{0}{0}{0}}' to list
-(xsim)             `sectioning'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={{0}{0}{0}{0}{0}}' to list `sectioning'.
-(xsim)             (on line 52)
-
-
-Package xsim Info: Setting property `page' of exercise type `aufgabe' id `2'
-(xsim)             to value `1'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={1}' to list `page'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={1}' to list `page'. (on line 52)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `2' to value `0'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
-(xsim)             52)
-
-
-Package xsim Info: Adding `aufgabe-2=={0}' to list `bodypoints'. (on line 52)
-
-
-Package xsim Info: Starting exercise type `aufgabe'with id `2'. (on line 52)
-
-
-Package xsim Info: Adding exercise type `aufgabe' ID `2' to collection `all
-(xsim)             exercises'. (on line 52)
-
-
-Package xsim Info: Setting property `collections' of exercise type `aufgabe'
-(xsim)             id `2' to value `all exercises'. (on line 52)
-
-
-Package xsim Info: Removing `aufgabe-2=={all exercises}' to list
-(xsim)             `collections'. (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2=={all exercises}' to list `collections'.
-(xsim)             (on line 52)
-
-
-Package xsim Info: Adding `aufgabe-2' to list `collection:all exercises'. (on
-(xsim)             line 52)
-
-
-Package xsim Info: Starting to write exercise environment type `aufgabe' id
-(xsim)             `2' (on line 52)
-
-
-Package xsim Info: (Re-)writing file
-(xsim)             `lk_potenzfunktionen-aufgabe-2-exercise-body.xsim'. (on
-(xsim)             line 52)
-
-\openout6 = `lk_potenzfunktionen-aufgabe-2-exercise-body.xsim'.
-
-
-Package xsim Info: Typesetting exercise environment type `aufgabe' id `2' (on
-(xsim)             line 59)
-
- (./lk_potenzfunktionen-aufgabe-2-exercise-body.xsim
-
-Package xsim Info: Adding `2' to `points' goal of aufgabe 2 (on line 13)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `2' to value `2'. (on line 13)
-
-
-Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
-(xsim)             13)
-
-
-Package xsim Info: Removing `aufgabe-2=={0}' to list `bodypoints'. (on line
-(xsim)             13)
-
-
-Package xsim Info: Adding `aufgabe-2=={2}' to list `bodypoints'. (on line 13)
-
-
-Package xsim Info: Adding `3' to `points' goal of aufgabe 2 (on line 14)
-
-
-Package xsim Info: Setting property `bodypoints' of exercise type `aufgabe' id
-(xsim)             `2' to value `5'. (on line 14)
-
-
-Package xsim Info: Removing `aufgabe-2=={5}' to list `bodypoints'. (on line
-(xsim)             14)
-
-
-Package xsim Info: Removing `aufgabe-2=={2}' to list `bodypoints'. (on line
-(xsim)             14)
-
-
-Package xsim Info: Adding `aufgabe-2=={5}' to list `bodypoints'. (on line 14)
-
-)
-
-Package xsim Info: Setting property `points' of exercise type `aufgabe' id `2'
-(xsim)             to value `5'. (on line 59)
-
-
-Package xsim Info: Removing `aufgabe-2=={5}' to list `points'. (on line 59)
-
-
-Package xsim Info: Adding `aufgabe-2=={5}' to list `points'. (on line 59)
-
-
-Package xsim Info: Setting property `(printed)' of exercise type `aufgabe' id
-(xsim)             `2' to value `true'. (on line 59)
-
-
-Package xsim Info: Setting property `printed' of exercise type `aufgabe' id
-(xsim)             `2' to value `true'. (on line 59)
-
-
-Package xsim Info: Removing `aufgabe-2=={true}' to list `printed'. (on line
-(xsim)             59)
-
-
-Package xsim Info: Removing `aufgabe-2=={false}' to list `printed'. (on line
-(xsim)             59)
-
-
-Package xsim Info: Adding `aufgabe-2=={true}' to list `printed'. (on line 59)
-
-
-Package xsim Info: Setting property `(used)' of exercise type `aufgabe' id `2'
-(xsim)             to value `true'. (on line 59)
-
-
-Package xsim Info: Setting property `used' of exercise type `aufgabe' id `2'
-(xsim)             to value `true'. (on line 59)
-
-
-Package xsim Info: Removing `aufgabe-2=={true}' to list `used'. (on line 59)
-
-
-Package xsim Info: Removing `aufgabe-2=={false}' to list `used'. (on line 59)
-
-
-Package xsim Info: Adding `aufgabe-2=={true}' to list `used'. (on line 59)
-
-
-Package xsim Info: Writing command \XSIM {goal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {goal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {goal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {totalgoal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {goal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {goal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {goal} to aux file (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {totalgoal} to aux file (on line 63)
-
-
-Package xsim Info: Updating list `use'. (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {use} to aux file (on line 63)
-
-
-Package xsim Info: Updating list `used'. (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {used} to aux file (on line 63)
-
-
-Package xsim Info: Updating list `print'. (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {print} to aux file (on line 63)
-
-
-Package xsim Info: Updating list `printed'. (on line 63)
-
-
-Package xsim Info: Writing command \XSIM {printed} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {printed} to aux file (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {total-number} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
 
-Package xsim Info: Writing command \XSIM {exercise} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {exercise} to aux file (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {aufgabe} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {aufgabe} to aux file (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {zusatzaufgabe} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
 
-Package xsim Info: Updating list `types'. (on line 63)
+Package xsim Info: Updating list `types'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {types} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {types} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `idtypes'. (on line 63)
+Package xsim Info: Updating list `idtypes'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {idtypes} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {idtypes} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `collections'. (on line 63)
+Package xsim Info: Updating list `collections'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {collections} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
 
-Package xsim Info: Updating list `collection:all exercises'. (on line 63)
+Package xsim Info: Updating list `collection:all exercises'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {collection:all exercises} to aux
-(xsim)             file (on line 63)
+(xsim)             file (on line 81)
 
 
-Package xsim Info: Updating list `id'. (on line 63)
+Package xsim Info: Updating list `id'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {id} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {id} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `ID'. (on line 63)
+Package xsim Info: Updating list `ID'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {ID} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {ID} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `counter'. (on line 63)
+Package xsim Info: Updating list `counter'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {counter} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {counter} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `counter-value'. (on line 63)
+Package xsim Info: Updating list `counter-value'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {counter-value} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
 
-Package xsim Info: Updating list `solution'. (on line 63)
+Package xsim Info: Updating list `solution'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {solution} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {solution} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `section-value'. (on line 63)
+Package xsim Info: Updating list `section-value'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {section-value} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
 
-Package xsim Info: Updating list `section'. (on line 63)
+Package xsim Info: Updating list `section'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {section} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {section} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `sectioning'. (on line 63)
+Package xsim Info: Updating list `sectioning'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {sectioning} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {sectioning} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `subtitle'. (on line 63)
+Package xsim Info: Updating list `subtitle'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {subtitle} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {subtitle} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `points'. (on line 63)
+Package xsim Info: Updating list `points'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {points} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {points} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `bonus-points'. (on line 63)
+Package xsim Info: Updating list `bonus-points'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {bonus-points} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
 
-Package xsim Info: Updating list `page-value'. (on line 63)
+Package xsim Info: Updating list `page-value'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {page-value} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {page-value} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `page'. (on line 63)
+Package xsim Info: Updating list `page'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {page} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {page} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `tags'. (on line 63)
+Package xsim Info: Updating list `tags'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {tags} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {tags} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `topics'. (on line 63)
+Package xsim Info: Updating list `topics'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {topics} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {topics} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `userpoints'. (on line 63)
+Package xsim Info: Updating list `userpoints'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {userpoints} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {userpoints} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `bodypoints'. (on line 63)
+Package xsim Info: Updating list `bodypoints'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {bodypoints} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {bodypoints} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `userbonus-points'. (on line 63)
+Package xsim Info: Updating list `userbonus-points'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {userbonus-points} to aux file (on
-(xsim)             line 63)
+(xsim)             line 81)
 
 
-Package xsim Info: Updating list `bodybonus-points'. (on line 63)
+Package xsim Info: Updating list `bodybonus-points'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {bodybonus-points} to aux file (on
-(xsim)             line 63)
+(xsim)             line 81)
 
 
-Package xsim Info: Updating list `bearbeitungshinweis'. (on line 63)
+Package xsim Info: Updating list `bearbeitungshinweis'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {bearbeitungshinweis} to aux file (on
-(xsim)             line 63)
+(xsim)             line 81)
 
 
-Package xsim Info: Updating list `symbol'. (on line 63)
+Package xsim Info: Updating list `symbol'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {symbol} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {symbol} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `mcumgebung'. (on line 63)
+Package xsim Info: Updating list `mcumgebung'. (on line 81)
 
 
-Package xsim Info: Writing command \XSIM {mcumgebung} to aux file (on line 63)
+Package xsim Info: Writing command \XSIM {mcumgebung} to aux file (on line 81)
 
 
-Package xsim Info: Updating list `erwartungen'. (on line 63)
+Package xsim Info: Updating list `erwartungen'. (on line 81)
 
 
 Package xsim Info: Writing command \XSIM {erwartungen} to aux file (on line
-(xsim)             63)
+(xsim)             81)
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Font shape `T1/fnc/m/sl' will be
+(Font)              scaled to size 11.15991pt on input line 81.
 
-] (./lk_potenzfunktionen.aux
-(./lk_potenzfunktionen.xsim))
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 28.99998pt needed,
+(scrlayer-scrpage)                but only 18.125pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=28.99998pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 8
+1.
+
+
+Overfull \hbox (35.56598pt too wide) has occurred while \output is active
+[]|
+ []
+
+
+Overfull \vbox (14.5pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (10.87498pt too high) has occurred while \output is active []
+
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   
+
+pdfTeX warning (ext4): destination with the same identifier (name{Doc-Start}) h
+as been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{aufgabe.1}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{aufgabe.2}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{Item.1}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{Item.2}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{aufgabe.3}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{aufgabe.4}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{Item.3}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{Item.4}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{table.1}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.81 \end{document}
+                   ]
+
+LaTeX Warning: Ignoring void shipout box.
+               The shipout box was voided by hook code.
+
+(./test.aux (./test.xsim))
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `lk_potenzfunktionen.out' has not changed.
+Package rerunfilecheck Info: File `test.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 47631 strings out of 478287
- 1113824 string characters out of 5849289
- 1897081 words of memory out of 5000000
- 65036 multiletter control sequences out of 15000+600000
- 477080 words of font info for 51 fonts, out of 8000000 for 9000
+ 38517 strings out of 478287
+ 787508 string characters out of 5849289
+ 1216315 words of memory out of 5000000
+ 55990 multiletter control sequences out of 15000+600000
+ 495616 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 127i,19n,122p,10626b,2335s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx10
-95.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfti1095.pfb>
-Output written on lk_potenzfunktionen.pdf (1 page, 112684 bytes).
+ 127i,19n,122p,10611b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/n
+cntrsbk/uncr8a.pfb>
+Output written on test.pdf (1 page, 43126 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
+ 48 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

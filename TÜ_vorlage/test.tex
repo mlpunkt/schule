@@ -1,0 +1,81 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage[
+    typ=ueb,
+    fach=Mathematik,
+    lerngruppe=9/6,
+    loesungen=keine,
+    module={Symbole,Bewertung},
+    datumAnzeigen,
+  namensfeldAnzeigen,
+]{schule}
+
+\author{Marcel Lehmann}
+\date{\today}
+\title{}
+
+\usepackage{babel,fouriernc,parskip,booktabs,array}
+\usepackage{enumitem}
+
+\usepackage[a4paper,inner=3cm,lmargin=2.5cm,outer=4cm,
+tmargin=2.5cm,bmargin=2.5cm]{geometry}
+
+\usepackage{pgfpages}                % <— load the package
+  \pgfpagesuselayout{2 on 1}[a4paper, landscape,border shrink=5mm] % <— set options
+\usepackage{atbegshi}
+  % duplicate the content at shipout time
+  \AtBeginShipout{
+    \pgfpagesshipoutlogicalpage{1}\copy\AtBeginShipoutBox
+    \pgfpagesshipoutlogicalpage{2}\box\AtBeginShipoutBox
+    \pgfshipoutphysicalpage
+  }
+\setlist{nolistsep}
+\renewcommand\labelitemi{--}
+
+
+
+\begin{document}
+\begin{center}
+ \large{\textbf{Tägliche Übung}}
+\end{center}
+
+
+
+
+\setzeAufgabentemplate{schule-randpunkte}
+
+\begin{aufgabe}[points = 3]
+ \textbf{Operator} und die Aufgabe.
+\end{aufgabe}
+
+
+\begin{aufgabe}
+ \textbf{Operator} und die Aufgabe.
+ \begin{teilaufgaben}
+  \teilaufgabe[2] xxx
+  \teilaufgabe[3] xxx
+ \end{teilaufgaben}
+\end{aufgabe}
+
+\begin{aufgabe}[points = 3]
+ \textbf{Operator} und die Aufgabe.
+\end{aufgabe}
+
+
+\begin{aufgabe}
+ \textbf{Operator} und die Aufgabe.
+ \begin{teilaufgaben}
+  \teilaufgabe[2] xxx
+  \teilaufgabe[3] xxx
+ \end{teilaufgaben}
+\end{aufgabe}
+
+
+\begin{center}
+ \achtung{TÜ wird zufällig eingesammelt!} \\
+\end{center}
+
+\punktuebersicht*
+
+
+
+\end{document}
